@@ -14,12 +14,13 @@ setuptools.setup(
 	packages=setuptools.find_packages(),
 	python_requires='>=3.7,<4',
 	install_requires=[
-		'recipemd~=4.0.3',
-		'beautifulsoup4~=4.7.1',
-		'requests~=2.22.0',
-		'html5lib==1.0.1',
-		'scrape-schema-recipe==0.0.4',
-		'recipe-scrapers==5.3.0',
+		'recipemd',
+		'beautifulsoup4',
+		'requests',
+		'html5lib',
+		'scrape-schema-recipe',
+		'recipe-scrapers',
+        'urllib3',
 	],
 	entry_points={
 		'console_scripts': [
